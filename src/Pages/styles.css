@@ -1,0 +1,60 @@
+.signin-container {
+    background-color: #f0f2f5; /* Light gray background */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px;
+    margin: 0 auto; /* Center horizontally */
+    max-width: 300px; /* Limit width */
+   
+        /* Existing styles... */
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);  /* Adjust for centering based on other styles */
+      
+    
+  }
+  
+  .signin-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between form elements */
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-label {
+    width: 80px; /* Adjust label width as needed */
+    text-align: right;
+  }
+  
+  .form-input {
+    flex: 1; /* Take up remaining space */
+    padding: 5px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 3px; /* Rounded corners */
+  }
+  
+  .signin-button {
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .signin-button:hover {
+    background-color: #0069d9; /* Darker blue on hover */
+  }
+  .parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: Set the height of the parent container to 100vh for full-screen centering */
+  }
+  
